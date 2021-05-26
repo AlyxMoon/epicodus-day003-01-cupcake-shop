@@ -2,11 +2,40 @@ h1  {
   color: limegreen;
   text-shadow: 0 0 5px pink;
 }
+
 body {
   color: blue;
   background-color:beige;
 }
+
 .flashy {
   color: red;
   font-style: italic;
+}
+
+.best {
+  color: pink;
+  background-color: #583939;
+  border: 10px solid green;
+  border-radius: 10px;
+  padding: 20px 0;
+  text-align: center;
+  text-shadow: 0 0 1px white;
+  list-style-type: none;
+  animation: flash 2s alternate infinite;
+  animation-timing-function: ease-out;
+}
+
+img {
+  max-width: 300px;
+}
+
+@keyframes flash {
+  0% {
+    border-color: green;
+  }
+
+  100% {
+    border-color: yellow;
+  }
 }
