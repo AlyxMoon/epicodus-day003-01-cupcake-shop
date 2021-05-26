@@ -1,0 +1,12 @@
+h1  {
+  color: limegreen;
+  text-shadow: 0 0 5px pink;
+}
+body {
+  color: blue;
+  background-color:beige;
+}
+.flashy {
+  color: red;
+  font-style: italic;
+}
